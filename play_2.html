@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc_2</title>
+</head>
+<body>
+    <h1>PLAYGROUND</h1>
+</body>
+<script>
+    let num = prompt('Enter a number for arithmetic calculation: ')
+    let num_1 = prompt('Enter a second number for the arithmetic calculation: ')
+    let operand = prompt("Choose the operation by the operands'+-/*'")
+
+    let cause = null
+    if (operand==='+'){
+        cause = num + num_1
+        alert(cause)
+    }else if(operand==='-'){
+        cause = num - num_1
+        alert(cause)
+    }else if(operand==='/'){
+        cause = num / num_1
+        alert(cause)
+    }else if(operand==='*'){
+        cause = num * num_1
+        alert(cause)
+    }else{
+        alert('Refresh Page please !!')
+    }
+</script>
+</html>
